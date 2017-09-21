@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFPractise.AbsolutePage">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <BoxView 
+                AbsoluteLayout.LayoutBounds="120,100,100,100"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                
+                
+                />
+            <Entry
+               AbsoluteLayout.LayoutBounds="100,200,200,100"
+               BackgroundColor="Black"
+               TextColor="White"
+               Text="AbsoluteLayout_enter_here_smth" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

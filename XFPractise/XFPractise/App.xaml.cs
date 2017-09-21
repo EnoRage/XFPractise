@@ -13,7 +13,7 @@ namespace XFPractise
         {
             InitializeComponent();
 
-            MainPage = new XFPractise.MainPage();
+            MainPage = new XFPractise.MasterDetailPage1();
         }
 
         protected override void OnStart()
